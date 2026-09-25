@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Partner Engine</title>
+  <meta name="description" content="An independent proposal for a partnerships and GTM function at TeamOut: 15 channel partners, Europe and Asia supply partners, a value calculator and a 30/60/90 plan. Every fact sourced." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M4 24 L12 10 L17 18 L21 13 L28 24 Z' fill='%23c2562e'/></svg>" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top"><span class="mark" aria-hidden="true"></span>Partner Engine</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#gap">The gap</a>
+      <a href="#channel">Channel</a>
+      <a href="#supply">Supply</a>
+      <a href="#maths">The maths</a>
+      <a href="#pulse">Market pulse</a>
+      <a href="#plan">30/60/90</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <p class="eyebrow">An independent proposal for TeamOut · Partnerships &amp; GTM</p>
+      <h1>One partnership proved it.<br />A programme makes it repeatable.</h1>
+      <p class="lede">TeamOut has one public channel partnership (Deel), a venue network that venues join one at a time, and 2 destination pages for all of Asia. Competitors are already paying to reach the Chiefs of Staff and executive assistants who book offsites. This is a first draft of the partnerships function I'd build: who to partner with, what to offer them, and what it's worth. Every fact links to its source.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#channel">See the 15 channel partners</a>
+        <a class="btn btn-ghost" href="#maths">Run the numbers</a>
+      </div>
+      <div class="stats" id="hero-stats"></div>
+    </section>
+
+    <!-- 01 GAP -->
+    <section id="gap" class="section wrap">
+      <div class="section-head">
+        <span class="num">01</span>
+        <div>
+          <h2>The gap</h2>
+          <p>What TeamOut publishes about itself, where its destination pages point, and who else is working the same buyers.</p>
+        </div>
+      </div>
+
+      <h3 class="sub">TeamOut, in its own numbers</h3>
+      <div class="facts" id="facts"></div>
+
+      <div class="split">
+        <div>
+          <h3 class="sub">Destination pages on teamout.com</h3>
+          <p class="muted small" id="dest-note"></p>
+          <div class="bars" id="dest-bars"></div>
+        </div>
+        <div>
+          <h3 class="sub">Where buyers are going that TeamOut has no page for</h3>
+          <ul class="missing" id="missing"></ul>
+        </div>
+      </div>
+
+      <h3 class="sub">Who else is in the market</h3>
+      <div class="table-wrap">
+        <table class="table" id="competitors">
+          <thead><tr><th>Company</th><th>Base</th><th>What they publish</th><th>Source</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 02 CHANNEL -->
+    <section id="channel" class="section wrap">
+      <div class="section-head">
+        <span class="num">02</span>
+        <div>
+          <h2>Channel partners: 15 places the buyer already is</h2>
+          <p>Three kinds of partner: HR and EOR platforms (the Deel model, repeated), finance and perks marketplaces that startups check before they buy, and the communities where offsite owners meet. The facts are sourced. The offer and priority are my proposal.</p>
+        </div>
+      </div>
+      <div class="filters" role="group" aria-label="Filter partners">
+        <div class="chips" id="type-chips"></div>
+        <div class="chips" id="prio-chips"></div>
+      </div>
+      <div class="cards" id="channel-cards"></div>
+    </section>
+
+    <!-- 03 SUPPLY -->
+    <section id="supply" class="section wrap">
+      <div class="section-head">
+        <span class="num">03</span>
+        <div>
+          <h2>Supply: grow Europe and Asia by agreement, not one listing at a time</h2>
+          <p>Today a venue signs up, gets reviewed and pays 10% on rooms. That works for the US. Going deeper in Europe and Asia is faster through a few group-level agreements: DMC networks that run the ground work in hundreds of destinations, and hotel groups that already run programmes for planners.</p>
+        </div>
+      </div>
+
+      <h3 class="sub">Proposed partner tiers</h3>
+      <div class="tiers">
+        <div class="tier">
+          <span class="tier-tag">Today</span>
+          <h4>Listed</h4>
+          <p>Free listing, review, 10% commission on rooms. Already live on the <a href="https://www.teamout.com/host" target="_blank" rel="noopener">host page</a>.</p>
+        </div>
+        <div class="tier">
+          <span class="tier-tag">Proposed</span>
+          <h4>Preferred</h4>
+          <p>Hotel groups sign one agreement covering many properties: a group rate card, a 24-hour quote promise, and featured spots on destination pages.</p>
+        </div>
+        <div class="tier">
+          <span class="tier-tag">Proposed</span>
+          <h4>Strategic</h4>
+          <p>DMC networks handle on-the-ground delivery in markets where TeamOut has no planner nearby. Referrals flow both ways.</p>
+        </div>
+      </div>
+
+      <h3 class="sub">DMC networks: one agreement, many destinations</h3>
+      <div class="table-wrap">
+        <table class="table" id="dmc">
+          <thead><tr><th>Network</th><th>Reach</th><th>Notes</th><th>Source</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <h3 class="sub">Hotel groups with programmes for planners</h3>
+      <p class="muted small">TeamOut may already list individual properties from these groups. The proposal is a group-level agreement, not a first introduction.</p>
+      <div class="cards cards-4" id="hotels"></div>
+    </section>
+
+    <!-- 04 MATHS -->
+    <section id="maths" class="section wrap">
+      <div class="section-head">
+        <span class="num">04</span>
+        <div>
+          <h2>The maths</h2>
+          <p>The booking value and commission come from TeamOut's host page. The number of partner-sourced bookings is an assumption, so it's yours to set. It starts deliberately low.</p>
+        </div>
+      </div>
+      <div class="calc">
+        <div class="calc-inputs">
+          <label class="field">
+            <span class="field-top"><span>Partner-sourced bookings per quarter</span><output id="o-bookings"></output></span>
+            <input type="range" id="i-bookings" min="0" max="20" step="1" value="2" />
+            <span class="hint"><span class="tag tag-input">Your assumption</span> Not a forecast. Move it.</span>
+          </label>
+          <label class="field">
+            <span class="field-top"><span>Average booking value</span><output id="o-value"></output></span>
+            <input type="range" id="i-value" min="30000" max="250000" step="5000" value="30000" />
+            <span class="hint"><span class="tag tag-src">Sourced range</span> TeamOut quotes $30K–$250K to venues. Starts at the low end. <a href="https://www.teamout.com/host" target="_blank" rel="noopener">Source</a></span>
+          </label>
+          <label class="field">
+            <span class="field-top"><span>TeamOut revenue as % of booking</span><output id="o-take"></output></span>
+            <input type="range" id="i-take" min="5" max="20" step="1" value="10" />
+            <span class="hint"><span class="tag tag-src">Sourced default</span> 10% is the published commission on room bookings. It covers rooms only, and TeamOut also charges its own service fees, so the real figure differs. <a href="https://www.teamout.com/host" target="_blank" rel="noopener">Source</a></span>
+          </label>
+          <label class="check">
+            <input type="checkbox" id="i-repeat" />
+            <span>Count one repeat booking from each new customer the following year <span class="hint">(TeamOut says 95% of companies plan to return. <a href="https://www.teamout.com/company" target="_blank" rel="noopener">Source</a>. Planning to return isn't the same as returning.)</span></span>
+          </label>
+        </div>
+        <div class="calc-out">
+          <div class="out"><span class="out-l">Partner-sourced bookings / year</span><span class="out-n" id="r-bookings"></span></div>
+          <div class="out"><span class="out-l">Booking value / year</span><span class="out-n" id="r-gmv"></span></div>
+          <div class="out out-main"><span class="out-l">TeamOut revenue / year</span><span class="out-n" id="r-rev"></span></div>
+          <p class="small muted" id="r-note"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 PULSE -->
+    <section id="pulse" class="section wrap">
+      <div class="section-head">
+        <span class="num">05</span>
+        <div>
+          <h2>Market pulse</h2>
+          <p>Six recent, sourced signals, and what each one means for partnerships.</p>
+        </div>
+      </div>
+      <div class="pulse" id="pulse-list"></div>
+    </section>
+
+    <!-- 06 PLAN -->
+    <section id="plan" class="section wrap">
+      <div class="section-head">
+        <span class="num">06</span>
+        <div>
+          <h2>30 / 60 / 90</h2>
+          <p>The targets are my proposal, to agree on together in week one.</p>
+        </div>
+      </div>
+      <div class="plan">
+        <div class="phase">
+          <span class="phase-n">Days 1–30</span>
+          <h4>Build on Deel, open the doors</h4>
+          <ul>
+            <li>Review the Deel partnership with the team: what it produced and what the offer is.</li>
+            <li>Ship a /partners page and one standard partner offer, so every new conversation starts from the same deal.</li>
+            <li>Apply to the Ramp, Brex and Mercury perks listings. Brex is already a customer.</li>
+            <li>Open conversations with 2 DMC networks for Europe and Asia coverage.</li>
+            <li>Tag partner-sourced leads in the CRM from day one.</li>
+          </ul>
+        </div>
+        <div class="phase">
+          <span class="phase-n">Days 31–60</span>
+          <h4>First deals live</h4>
+          <ul>
+            <li>Deel offer placed in Deel Rewards; Remote or Oyster offer live.</li>
+            <li>One community activation with Chiefs of Staff or executive assistants, starting with an event where no competitor is title sponsor.</li>
+            <li>A Preferred-tier agreement with one hotel group in Portugal or Spain.</li>
+            <li>A first Greece or Japan offsite quoted through a DMC network partner.</li>
+          </ul>
+        </div>
+        <div class="phase">
+          <span class="phase-n">Days 61–90</span>
+          <h4>Make it a programme</h4>
+          <ul>
+            <li>10 channel partners live, with partner-sourced pipeline reported monthly.</li>
+            <li>Keep the channels that produce bookings; drop the ones that don't.</li>
+            <li>A written partner playbook, so the next hire or contractor can run it too.</li>
+            <li>A Europe and Asia destination plan with the team, built from DMC and hotel-group coverage.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 ABOUT -->
+    <section id="about" class="section wrap">
+      <div class="section-head">
+        <span class="num">07</span>
+        <div>
+          <h2>Why me, and how this was made</h2>
+        </div>
+      </div>
+      <div class="split">
+        <div class="about">
+          <p>I'm Garima, a GTM and partnerships operator based in New Delhi. I work remotely across time zones.</p>
+          <ul>
+            <li><strong>Built a corporate partnership channel from zero.</strong> As the first business development hire at a mobility startup, I signed 15+ corporate partners covering 1,200+ employees (a $160K+ portfolio) and supported launches in 12 cities.</li>
+            <li><strong>Built partnerships across 15 countries.</strong> I built 30+ institutional partnerships for a UNESCO-affiliated foundation and ran international events there.</li>
+            <li><strong>Work with enterprise clients in Big Four consulting.</strong> I work on GTM, growth and market-entry projects for 15+ global clients, and lead a team of analysts.</li>
+            <li><strong>Build my own AI tools.</strong> I've built four GTM and partnership tools with the Claude API. This site is another.</li>
+          </ul>
+        </div>
+        <div class="about">
+          <h3 class="sub sub-tight">How it was made</h3>
+          <p>Researched and built with AI (Claude) in a day: TeamOut's public pages, partner-programme pages, industry reporting and competitor sites. Plain HTML, CSS and JavaScript on Vercel.</p>
+          <h3 class="sub sub-tight">Ground rules</h3>
+          <ul>
+            <li>Only public, company-level information. All sources were collected 25 September 2026.</li>
+            <li>Figures are each source's own claim. Assumptions appear only as inputs you control, and are labelled.</li>
+            <li>No partner listed here has been contacted.</li>
+            <li>Not affiliated with or endorsed by TeamOut or any company named.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>Partner Engine · an independent proposal, September 2026. Not affiliated with TeamOut.</p>
+  </footer>
+
+  <script src="data/data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
