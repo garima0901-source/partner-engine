@@ -52,7 +52,7 @@ const CHANNEL = [
     why: "Proven relationship; the next step is distribution, not a new deal.",
     src: "https://www.deel.com/solutions/benefits/perks-rewards/", src2: SRC.toDeel },
   { name: "Remote", type: "HR & EOR platforms", priority: "High",
-    fact: "Runs a vetted partner perks marketplace (featured: Brex, HiBob, Ramp, Mercury, Notion) and standard partner programmes with options like customer discounts or referral bonuses. No offsite company is featured.",
+    fact: "Runs a vetted partner perks marketplace inside the Remote app, covering finance, HR, collaboration and travel tools (featured: Brex, Notion, Slack, Stripe). No offsite company is featured.",
     offer: "A Remote-customer offsite rate listed in the perks marketplace, matching the Deel package.",
     why: "Same buyer as Deel (distributed teams). Note: competitor Offsite's 2023 funding release lists co-founders and CEOs from Remote among its angels, so this one needs a sharp pitch.",
     src: "https://remote.com/en-in/partners/perks-marketplace", src2: "https://www.prnewswire.com/news-releases/offsite-raises-3-million-to-reconnect-remote-and-hybrid-companies-through-in-person-experiences-301879845.html" },
@@ -62,9 +62,9 @@ const CHANNEL = [
     why: "An EOR for distributed teams: exactly the companies that need offsites to meet in person.",
     src: "https://partners.oysterhr.com/", src2: "https://ramp.com/rewards" },
   { name: "HiBob", type: "HR & EOR platforms", priority: "Medium",
-    fact: "Runs tech and advisory partner programmes; the partner page mentions exclusive perks for partners and their clients.",
-    offer: "Client perk for HiBob customers, co-marketed through the partner portal.",
-    why: "Mid-market HR buyer in the US, UK and Europe. Perk route is lighter than a product integration.",
+    fact: "Runs four partner programmes: HR consultants (with referral fees), a tech marketplace, service partners, and a private equity and VC programme that gives portfolio companies preferred pricing.",
+    offer: "An offsite rate packaged alongside HiBob's PE and VC portfolio offer, with co-marketing to the same funds.",
+    why: "Reaches whole VC portfolios at once. Depends on HiBob wanting non-software offers in that bundle.",
     src: "https://www.hibob.com/partner/" },
   { name: "Culture Amp", type: "HR & EOR platforms", priority: "Medium",
     fact: "Channel partnership programme with referral links, marketing support and automated commission payouts.",
@@ -141,9 +141,9 @@ const DMC_NETWORKS = [
 
 // ---------- SUPPLY: HOTEL GROUPS WITH PLANNER PROGRAMMES ----------
 const HOTEL_GROUPS = [
-  { name: "Meliá (MeliáPRO)", fact: "Up to 20% commission for agents, plus an extra 5% on meetings and events booked by 31 December 2026. Free group-booking microsites.", src: "https://meliapro.melia.com/en/meetings-events/offers", src2: "https://www.cotal.fr/wp-content/uploads/2024/01/EN-MELIAPRO-AGENTS-HANDBOOK.pdf" },
-  { name: "NH / Minor Hotels (Minor PRO)", fact: "Instant online booking of meeting space and group rooms in under 5 minutes, plus private group-booking microsites.", src: "https://www.minorhotels.com/en/minor-pro/blog/trends/event-booking-tools-nh-hotels" },
-  { name: "Pestana Hotel Group", fact: "100+ hotels across 4 brands (about 12,000 keys), with properties in Lisbon, Porto, Cascais, Sintra, the Algarve, Madeira and the Azores.", src: "https://en.wikipedia.org/wiki/Pestana_Group", src2: "https://www.pestana.com/en/meetings" },
+  { name: "Meliá (MeliáPRO)", fact: "A dedicated portal for meeting planners with standing group offers, such as an Incentives Travel Program and the TOGETHER2026 code (3 perks of your choice on group trips).", src: "https://meliapro.melia.com/en/meetings-events/offers" },
+  { name: "NH / Minor Hotels (Minor PRO)", fact: "Planner tools include custom group websites where attendees book their own rooms, and a 3D virtual planner at 24 hotels for designing the event before booking.", src: "https://www.minorhotels.com/en/minor-pro/blog/trends/event-booking-tools-nh-hotels" },
+  { name: "Pestana Hotel Group", fact: "111 hotels in 17 countries with about 12,000 rooms (2025), with meeting venues including the Lisbon area, where Lisbon is one of the two top offsite cities in Surf Office's report.", src: "https://en.wikipedia.org/wiki/Pestana_Group", src2: "https://www.pestana.com/en/meetings" },
   { name: "Accor (ALL Meeting Planner)", fact: "Free planner loyalty programme: 1 Reward point and 1 Status point per €2 spent on group bookings of 8+ rooms or attendees.", src: "https://all.accor.com/a/en/offers/meapac/all-meeting-planner.html" },
 ];
 
