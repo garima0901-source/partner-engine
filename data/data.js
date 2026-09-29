@@ -20,7 +20,7 @@ const TEAMOUT_FACTS = [
   { k: "10%", l: "flat commission on room bookings, pre-tax. Listing is free", src: SRC.toHost },
   { k: "500+", l: "corporate retreats organised; 95% of companies plan to return", src: SRC.toCompany },
   { k: "1", l: "public channel partnership: Deel, announced 9 July 2025", src: SRC.toDeel },
-  { k: "10", l: "team size on the YC company profile", src: SRC.toYC },
+  { k: "1,200+", l: "events organised, per the Launch HN post for TeamOut's AI planning agent", src: "https://news.ycombinator.com/item?id=47151598" },
 ];
 
 // Destination pages on teamout.com/corporate-retreat, counted across every page of the listing on 25 Sep 2026
@@ -149,6 +149,10 @@ const HOTEL_GROUPS = [
 
 // ---------- MARKET PULSE ----------
 const PULSE = [
+  { date: "2026", title: "TeamOut's AI agent is only as good as its supply",
+    body: "In the Launch HN thread for TeamOut's AI planning agent, users flagged weak results for searches outside the US. The reply put this down to limited supply in those regions, and said TeamOut's edge is its direct relationships with hotels.",
+    means: "Supply partnerships in Europe and Asia now directly improve the product, not just the catalogue.",
+    src: "https://news.ycombinator.com/item?id=47151598", src2: "https://www.teamout.com/ai", outlet: "Hacker News · teamout.com" },
   { date: "May 2026", title: "78% of remote-capable US workers aren't on-site full time",
     body: "Gallup: 52% hybrid, 26% fully remote, 22% on-site.",
     means: "Most of TeamOut's market still needs a reason and a place to meet in person.",
